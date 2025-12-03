@@ -6,7 +6,7 @@ Diees Projekt dient zur einfachen Übung von Angular/Typescript/NX und CSS
 ## Regeln für dieses Projekt
 
 - Der Einsatz von KI ist auf Hilfestellung bei Fragen zu beschränken. KI-Code soll möglichst nicht verwendet werden
-- Das Kanban Board unter Projects sollte benutzt werden, um möglichst eine agile arbeitsweise in einer Firma zu simulieren
+- Das Kanban Board unter Projects sollte benutzt werden, um möglichst eine agile arbeitsweise zu simulieren
 
 ## Überlegungen zum Aufbau bisher:
 
@@ -25,7 +25,7 @@ Diees Projekt dient zur einfachen Übung von Angular/Typescript/NX und CSS
 - 301
 - Singapur
 - Cricket
-- Round the Clock
+- Round the Clock (Eigentlich unnötig)
 
 -> Spieler
 
@@ -38,54 +38,14 @@ Diees Projekt dient zur einfachen Übung von Angular/Typescript/NX und CSS
 
 ## Auto generierte hilfe zum NX Projekt
 
-### Development server
 
-To start a local development server, run:
+# Nx Workspace Documentation
 
-```bash
-ng serve
-```
+This project was generated using [Nx](https://nx.dev).
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Development server
 
-### Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+To start a local development server for your application, run:
 
 ```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-### Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-### Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-### Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+npx nx serve <your-app-name>
