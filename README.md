@@ -8,6 +8,9 @@ Diees Projekt dient zur einfachen Übung von Angular/Typescript/NX und CSS
 - Der Einsatz von KI ist auf Hilfestellung bei Fragen zu beschränken. KI-Code soll möglichst nicht verwendet werden
 - Das Kanban Board unter Projects sollte benutzt werden, um möglichst eine agile arbeitsweise zu simulieren
 
+- Jedes Ticket ist ein Branch mit dem Namen des Tickets
+- - Bei Unteraufgaben wird von dem Branch nochmal ein Sub-Branch erstellt mit dem Namen der Unteraufgabe
+
 ## Überlegungen zum Aufbau bisher:
 
 ### Aufbau:
