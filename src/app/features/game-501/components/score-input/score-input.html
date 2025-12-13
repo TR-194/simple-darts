@@ -1,1 +1,9 @@
-<p>score-input works!</p>
+<div class="keypad">
+    @for (button of buttons; track $index) {
+        <button type="button" class="score-button" (click)="onNumberClick(button)">{{ button }}</button>
+    }
+</div>
+<div class="modifiers">
+    <button type="button" class="modifier-button" (click)="setMultiplier(2)">Double</button>
+    <button type="button" class="modifier-button" (click)="setMultiplier(3)">Triple</button>
+</div>

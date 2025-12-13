@@ -6,4 +6,6 @@ import { Component } from '@angular/core';
   templateUrl: './scoreboard.html',
   styleUrl: './scoreboard.css'
 })
-export class Scoreboard {}
+export class Scoreboard {
+
+}

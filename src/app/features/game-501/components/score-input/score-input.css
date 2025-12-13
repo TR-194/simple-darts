@@ -1,1 +1,21 @@
+.keypad {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
 
+.score-button {
+    width: 40px;
+    height: 40px;
+}
+
+.modifiers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.modifier-button {
+    width: 80px;
+    height: 80px;
+}
