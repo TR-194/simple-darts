@@ -28,6 +28,9 @@ export class ScoreInput implements OnInit {
   // Hier muss später vermutlich noch der Rückgabetyp geändert werden kann
   // kann ich gerade noch nicht sagen
   onNumberClick(value: number): void {
+    if(value === 25 || 50) {
+      this.multiplier = 1;
+    }
     let points = value * this.multiplier;
     console.log("Gedrückt: ", points); // Erstmal nur zur Überpürfung das es klappt
     this.multiplier = 1;
@@ -44,7 +47,7 @@ export class ScoreInput implements OnInit {
   - Zurück Button, um Eingaben zu revidieren, muss dann noch eingebaut werden
   - Styles würde ich erst ganz am Ende ausführlicher behandeln
   - Funktion die prüft, ob 25 oder 50 versucht werden zu multiplizieren, dass muss
-    verhindert werden
+    verhindert werden --> vermutlich wäre es noch besser die buttons in diesem Fall nicht klickbar zu machen
   */
 
 
